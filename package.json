@@ -1,0 +1,25 @@
+{
+  "name": "next-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "development": "next build && next dev -p 3000",
+    "production": "next build &&  next start -p 3000"
+  },
+  "dependencies": {
+    "next": "11.1.2",
+    "next-redux-wrapper": "^7.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
